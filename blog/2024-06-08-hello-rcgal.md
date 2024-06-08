@@ -1,5 +1,5 @@
 ---
-title: 你好, RCGAL
+title: Hello, RCGAL
 description: The RCGAL is a computational geometry algorithm library of Rust.
 authors:
     name: liuyulvv
@@ -7,10 +7,10 @@ authors:
     image_url: https://github.com/liuyulvv.png
 ---
 
-欢迎，感谢您对 RCGAL 的关注。
+Welcome, thanks for your interest in the RCGAL.
 
-RCGAL 是 Rust 的一个计算几何算法库。它**不是**[CGAL](https://www.cgal.org/)的 Rust 绑定，而是一个受 CGAL 启发的新库。
+RCGAL is a computational geometry algorithm library of Rust. It is **not** a Rust binding of the [CGAL](https://www.cgal.org/), but a new library that is inspired by the CGAL.
 
-RCGAL 是一个开源项目，托管在[GitHub](https://github.com/liuyulvv/rcgal)上，采用 MIT 或 Apache-2.0 许可协议。RCGAL 被设计成一个高性能、易用、易扩展的 Rust 计算几何算法库。它仍处于早期开发阶段，还不能用于生产, 但您可以试用它并提供反馈，以帮助改进它。
+RCGAL is an open-source project, and it is hosted on [GitHub](https://github.com/liuyulvv/rcgal), licensed under the MIT or Apache-2.0 license. RCGAL is designed to be a high-performance, easy-to-use, and easy-to-extend computational geometry algorithm library of Rust. It is still in the early stage of development, and it is not ready for production use, but you can try it out and give feedback to help improve it.
 
-感谢您对 RCGAL 的关注，希望我们能一起学习和成长。
+Thanks for your interest in the RCGAL, and I hope we can learn and grow together.
