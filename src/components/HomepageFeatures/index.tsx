@@ -13,7 +13,7 @@ const FeatureList2D: FeatureItem[] = [
     {
         title: "Convex Hull",
         Svg: require("@site/static/img/convex_hull.svg").default,
-        linkUrl: "/docs/2d/convex-hull",
+        linkUrl: "/docs/algorithm/convex-hull",
     },
 ];
 
