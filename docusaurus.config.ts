@@ -1,13 +1,13 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
     title: "Rust Computational Geometry Algorithm Library",
     tagline: "RCGAL",
     favicon: "img/favicon.ico",
 
-    // Set the production url of your site herÏe
+    // Set the production url of your site here
     url: "https://your-docusaurus-site.example.com",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
@@ -25,8 +25,8 @@ const config: Config = {
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
     i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
+        defaultLocale: "zh-Hans",
+        locales: ["zh-Hans", "en"],
     },
 
     presets: [
@@ -52,14 +52,8 @@ const config: Config = {
             disableSwitch: false,
             respectPrefersColorScheme: false,
         },
-        // Replace with your project's social card
-        image: "img/docusaurus-social-card.jpg",
         navbar: {
             title: "RCGAL",
-            logo: {
-                alt: "logo",
-                src: "img/logo.svg",
-            },
             items: [
                 {
                     type: "docSidebar",
@@ -68,6 +62,11 @@ const config: Config = {
                     label: "Tutorial",
                 },
                 { to: "/blog", label: "Blog", position: "left" },
+                { to: "https://docs.rs/rcgal/latest/rcgal/", label: "Doc", position: "left" },
+                {
+                    type: "localeDropdown",
+                    position: "right",
+                },
                 {
                     href: "https://github.com/liuyulvv/tcgal",
                     label: "GitHub",
