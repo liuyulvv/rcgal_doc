@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# 数字类型
+# Number type
 
-`数字类型` 是内核的一个基本概念，用于表示几何对象的坐标。`数字类型`是一个泛型类型，这意味着您可以使用任何实现 `NumberType` 特性的类型作为数字类型。
+`number type` 是内核的一个基本概念，用于表示`数字`。`number type`是一个泛型类型，这意味着您可以使用任何实现 `NumberType` 特性的类型作为数字类型。
 
 `NumberType` 特性如下：
 
