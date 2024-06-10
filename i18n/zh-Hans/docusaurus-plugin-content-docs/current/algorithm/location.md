@@ -1,7 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Location
-
-Location  relationship between two geometric objects.
