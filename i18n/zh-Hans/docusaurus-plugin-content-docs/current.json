@@ -1,30 +1,18 @@
 {
-    "version.label": {
-        "message": "Next",
-        "description": "The label for version current"
-    },
-    "sidebar.tutorialSidebar.category.Kernel": {
-        "message": "Kernel",
-        "description": "The label for category Kernel in sidebar tutorialSidebar"
-    },
-    "sidebar.tutorialSidebar.category.Kernel.link.generated-index.description": {
-        "message": "Kernel provides the basic geometric objects and operations on them.",
-        "description": "The generated-index page description for category Kernel in sidebar tutorialSidebar"
-    },
-    "sidebar.tutorialSidebar.category.Data Structure": {
-        "message": "Data Structure",
-        "description": "The label for category Data Structure in sidebar tutorialSidebar"
-    },
-    "sidebar.tutorialSidebar.category.Data Structure.link.generated-index.description": {
-        "message": "Some useful data structures.",
-        "description": "The generated-index page description for category Data Structure in sidebar tutorialSidebar"
-    },
-    "sidebar.tutorialSidebar.category.Algorithm": {
-        "message": "Algorithm",
-        "description": "The label for category Algorithm in sidebar tutorialSidebar"
-    },
-    "sidebar.tutorialSidebar.category.Algorithm.link.generated-index.description": {
-        "message": "Some useful algorithms.",
-        "description": "The generated-index page description for category Algorithm in sidebar tutorialSidebar"
-    }
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Kernel": {
+    "message": "内核",
+    "description": "The label for category Kernel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Structure": {
+    "message": "数据结构",
+    "description": "The label for category Data Structure in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Algorithm": {
+    "message": "算法",
+    "description": "The label for category Algorithm in sidebar tutorialSidebar"
+  }
 }
