@@ -33,4 +33,8 @@ pub trait NumberType:
 }
 ```
 
+:::note
+Two numbers are equal if the absolute difference between them is less than the `default_eps`.
+:::
+
 RCGAL officially implements the `NumberType` trait for the `f32` and `f64`, and you can use them directly. If you want to use other types, you need to implement the `NumberType` trait for them.
