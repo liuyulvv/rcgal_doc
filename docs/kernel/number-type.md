@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Number Type
 
-The `number type` is a fundamental concept of the kernel, which is used to represent the coordinates of geometric objects. The number type is a generic type, which means you can use any type that implements the `NumberType` trait as the number type.
+The `number type` is a fundamental concept of the kernel, which is used to represent the coordinates of geometric objects. The `number type` is a generic type, which means you can use any type that implements the `NumberType` trait as the number type.
 
 `NumberType` trait was like this:
 
@@ -34,7 +34,7 @@ pub trait NumberType:
 ```
 
 :::note
-Two numbers are equal if the absolute difference between them is less than the `default_eps`.
+`equals` return `true` if two numbers are equal, which means the absolute difference between them is less than `default_eps`.
 :::
 
-RCGAL officially implements the `NumberType` trait for the `f32` and `f64`, and you can use them directly. If you want to use other types, you need to implement the `NumberType` trait for them.
+RCGAL implements the `NumberType` trait for the `f32` and `f64`, and you can use them directly. If you want to use other types, you need to implement the `NumberType` trait for them.
