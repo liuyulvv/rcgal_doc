@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Number Type
 
-The `number type` is a fundamental concept of the kernel, which is used to represent the coordinates of geometric objects. The number type is a generic type in RCGAL, which means you can use any type that implements the `NumberType` trait as the number type.
+The `number type` is a fundamental concept of the kernel, which is used to represent the coordinates of geometric objects. The number type is a generic type, which means you can use any type that implements the `NumberType` trait as the number type.
 
 `NumberType` trait was like this:
 
