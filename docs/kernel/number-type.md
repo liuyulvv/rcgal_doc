@@ -13,6 +13,7 @@ pub trait DefaultNumberValueTrait {
     fn default() -> Self;
     fn default_eps() -> Self;
     fn zero() -> Self;
+    fn from_f64(value: f64) -> Self;
 }
 
 pub trait NumberType:
