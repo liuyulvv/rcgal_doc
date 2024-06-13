@@ -6,6 +6,8 @@ sidebar_position: 2
 
 `Vector2` is a two-dimensional vector in the Cartesian coordinate system.
 
+![Vector2](/img/vector-2.png)
+
 :::note
 `Vector2` is a generic type, which means you can use any type that implements the `NumberType` trait as the number type.
 :::
