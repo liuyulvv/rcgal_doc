@@ -12,7 +12,7 @@ interface FeatureItem {
 const FeatureList2D: FeatureItem[] = [
     {
         title: "Convex Hull",
-        Svg: require("@site/static/img/convex_hull.svg").default,
+        Svg: require("@site/static/img/convex-hull-2.svg").default,
         linkUrl: "/docs/algorithm/convex-hull",
     },
 ];
