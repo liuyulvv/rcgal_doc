@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Point2
 
-`Point2` is a two-dimensional point in the Cartesian coordinate system. It is a fundamental concept of the kernel, which is used to represent the coordinates of geometric objects.
+`Point2` is a two-dimensional point in the Cartesian coordinate system.
 
 ![Point2](/img/point-2.png)
 
@@ -35,7 +35,8 @@ let y = point_2.y();
 
 -   `distance`: Computes the distance between two points.
 -   `equals`: Checks if two points are equal.
--   `get_vector`: Returns a vector from the origin to the point
+-   `get_vector`: Returns a vector from the origin to the point.
+-   `turn`: Calculate the TurnDirection of three points.
 
 ```rust
 let point_1 = Point2::new(1.0, 2.0);
@@ -43,6 +44,7 @@ let point_2 = Point2::new(3.0, 4.0);
 let distance = point_1.distance(&point_2);
 let equals = point_1.equals(&point_2);
 let vector = point_1.get_vector();
+let turn = Point2::turn(&point_1, &point_2, &Point2::new(5.0, 6.0));
 ```
 
 :::note

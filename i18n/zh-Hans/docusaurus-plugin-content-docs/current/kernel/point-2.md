@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Point2
 
-`Point2` 是笛卡尔坐标系中的二维点。它是内核的一个基本概念，用于表示几何对象的坐标。
+`Point2` 是笛卡尔坐标系中的二维点。
 
 ![Point2](/img/point-2.png)
 
@@ -35,7 +35,8 @@ let y = point_2.y();
 
 -   `distance`：计算两个点之间的距离。
 -   `equals`：检查两个点是否相等。
--   `get_vector`：返回从原点到点的向量
+-   `get_vector`：返回从原点到点的向量。
+-   `turn`：计算三个点的 `TurnDirection`。
 
 ```rust
 let point_1 = Point2::new(1.0, 2.0);
@@ -43,6 +44,7 @@ let point_2 = Point2::new(3.0, 4.0);
 let distance = point_1.distance(&point_2);
 let equals = point_1.equals(&point_2);
 let vector = point_1.get_vector();
+let turn = Point2::turn(&point_1, &point_2, &Point2::new(5.0, 6.0));
 ```
 
 :::note
