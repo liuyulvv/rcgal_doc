@@ -14,5 +14,9 @@
   "sidebar.tutorialSidebar.category.Algorithm": {
     "message": "算法",
     "description": "The label for category Algorithm in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Segment2": {
+    "message": "线段",
+    "description": "The label for category Segment2 in sidebar tutorialSidebar"
   }
 }
