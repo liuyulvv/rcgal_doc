@@ -35,6 +35,7 @@ let y = vec_2.y();
 -   `cross`: Computes the cross product of two vectors.
 -   `length`: Computes the length of the vector.
 -   `normalize`: Normalizes the vector.
+-   `radian_to`: Computes the angle between two vectors in radians.
 
 ```rust
 let vec_a = Vector2::new(1.0, 2.0);
@@ -43,6 +44,7 @@ let dot = vec_a.dot(&vec_b);
 let cross = vec_a.cross(&vec_b);
 let length = vec_a.length();
 let normalized_vec_a = vec_a.normalize();
+let radian_to = vec_a.radian_to(&vec_b);
 ```
 
 ## Operators

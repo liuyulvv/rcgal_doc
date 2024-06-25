@@ -35,6 +35,7 @@ let y = vec_2.y();
 -   `cross`：计算两个向量的叉积。
 -   `length`：计算向量的长度。
 -   `normalize`：对向量进行归一化。
+-   `radian_to`: 计算两个向量之间的弧度角。
 
 ```rust
 let vec_a = Vector2::new(1.0, 2.0);
@@ -43,6 +44,7 @@ let dot = vec_a.dot(&vec_b);
 let cross = vec_a.cross(&vec_b);
 let length = vec_a.length();
 let normalized_vec_a = vec_a.normalize();
+let radian_to = vec_a.radian_to(&vec_b);
 ```
 
 ## 运算符
