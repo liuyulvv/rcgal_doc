@@ -13,6 +13,8 @@ pub trait DefaultNumberValueTrait {
     fn default() -> Self;
     fn default_eps() -> Self;
     fn zero() -> Self;
+    fn from_f64(value: f64) -> Self;
+    fn pi() -> Self;
 }
 
 pub trait NumberType:
@@ -26,10 +28,16 @@ pub trait NumberType:
     + Clone
     + Copy
     + Debug
+    + Display
 {
     fn equals(self, other: Self) -> bool;
     fn sqrt(self) -> Self;
     fn abs(self) -> Self;
+    fn sin(self) -> Self;
+    fn cos(self) -> Self;
+    fn acos(self) -> Self;
+    fn atan(self) -> Self;
+    fn atan2(self, other: Self) -> Self;
 }
 ```
 
