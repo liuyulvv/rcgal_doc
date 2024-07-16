@@ -1,0 +1,27 @@
+{
+  "name": "rcgal",
+  "collaborators": [
+    "liuyulvv"
+  ],
+  "description": "Rust Computational Geometry Algorithms Library.",
+  "version": "0.2.2",
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyulvv/rcgal"
+  },
+  "files": [
+    "rcgal_bg.wasm",
+    "rcgal.js",
+    "rcgal_bg.js",
+    "rcgal.d.ts",
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+  ],
+  "module": "rcgal.js",
+  "types": "rcgal.d.ts",
+  "sideEffects": [
+    "./rcgal.js",
+    "./snippets/*"
+  ]
+}
