@@ -3,7 +3,10 @@
         "CGAL",
         "clsx",
         "consts",
+        "fluentui",
+        "konva",
         "rcgal",
-        "typecheck"
+        "typecheck",
+        "zustand"
     ]
 }
