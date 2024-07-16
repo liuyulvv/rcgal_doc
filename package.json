@@ -21,6 +21,7 @@
         "@docusaurus/theme-common": "^3.4.0",
         "@fluentui/react-components": "^9.54.5",
         "@mdx-js/react": "^3.0.0",
+        "canvas-loader": "link:plugins\\canvas-loader",
         "clsx": "^2.0.0",
         "konva": "^9.3.13",
         "normalize.css": "^8.0.1",

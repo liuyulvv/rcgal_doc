@@ -82,7 +82,7 @@ const config: Config = {
         },
     } satisfies Preset.ThemeConfig,
 
-    plugins: ["wasm-loader"],
+    plugins: ["wasm-loader", "canvas-loader"],
 };
 
 export default config;

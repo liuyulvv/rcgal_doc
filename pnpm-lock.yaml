@@ -23,6 +23,9 @@ importers:
       '@mdx-js/react':
         specifier: ^3.0.0
         version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
+      canvas-loader:
+        specifier: link:plugins\canvas-loader
+        version: link:plugins/canvas-loader
       clsx:
         specifier: ^2.0.0
         version: 2.1.1
