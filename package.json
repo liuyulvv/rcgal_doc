@@ -17,11 +17,19 @@
     "dependencies": {
         "@docusaurus/core": "3.4.0",
         "@docusaurus/preset-classic": "3.4.0",
+        "@docusaurus/theme-common": "^3.4.0",
+        "@fluentui/react-components": "^9.54.5",
         "@mdx-js/react": "^3.0.0",
         "clsx": "^2.0.0",
+        "konva": "^9.3.13",
+        "normalize.css": "^8.0.1",
         "prism-react-renderer": "^2.3.0",
+        "rcgal": "link:rcgal",
         "react": "^18.0.0",
-        "react-dom": "^18.0.0"
+        "react-dom": "^18.0.0",
+        "react-konva": "^18.2.10",
+        "wasm-loader": "link:plugins\\wasm-loader",
+        "zustand": "^4.5.4"
     },
     "devDependencies": {
         "@docusaurus/module-type-aliases": "3.4.0",
