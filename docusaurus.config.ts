@@ -63,13 +63,14 @@ const config: Config = {
                     label: "Tutorial",
                 },
                 { to: "/blog", label: "Blog", position: "left" },
-                { to: "https://docs.rs/rcgal/latest/rcgal/", label: "Doc", position: "left" },
+                { to: "https://docs.rs/rcgal/latest/rcgal/", label: "Document", position: "left" },
+                { to: "/example", label: "Example", position: "left" },
                 {
                     type: "localeDropdown",
                     position: "right",
                 },
                 {
-                    href: "https://github.com/liuyulvv/tcgal",
+                    href: "https://github.com/liuyulvv/rcgal",
                     label: "GitHub",
                     position: "right",
                 },
@@ -80,6 +81,8 @@ const config: Config = {
             darkTheme: prismThemes.dracula,
         },
     } satisfies Preset.ThemeConfig,
+
+    plugins: ["wasm-loader"],
 };
 
 export default config;
