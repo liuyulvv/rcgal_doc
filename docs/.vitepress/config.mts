@@ -6,6 +6,8 @@ export default defineConfig({
 
     description: "Rust Computational Geometry Algorithms Library",
 
+    base: "/rcgal_doc/",
+
     themeConfig: {
         socialLinks: [{ icon: "github", link: "https://github.com/liuyulvv/rcgal" }],
 
