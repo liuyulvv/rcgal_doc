@@ -1,12 +1,8 @@
----
-sidebar_position: 2
----
-
 # Vector2
 
 `Vector2` 是笛卡尔坐标系中的二维向量。
 
-![Vector2](/img/vector-2.png)
+![Vector2](/assets/img/vector-2.png)
 
 :::note
 `Vector2` 是一个泛型类型，这意味着您可以使用任何实现 `NumberType` 特性的类型作为数字类型。

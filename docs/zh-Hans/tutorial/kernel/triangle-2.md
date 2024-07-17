@@ -1,12 +1,8 @@
----
-sidebar_position: 5
----
-
 # Triangle2
 
 `Triangle2` 是笛卡尔坐标系中的二维三角形。它是内核的基本概念，用于表示三个点之间的三角形。`Triangle2` 有三个顶点和三条边。
 
-![Triangle2](/img/triangle-2.png)
+![Triangle2](/assets/img/triangle-2.png)
 
 ## 构造函数
 

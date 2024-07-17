@@ -1,12 +1,8 @@
----
-sidebar_position: 3
----
-
 # Point2
 
 `Point2` 是笛卡尔坐标系中的二维点。
 
-![Point2](/img/point-2.png)
+![Point2](/assets/img/point-2.png)
 
 :::note
 `Point2` 是一个泛型类型，这意味着您可以使用任何实现 `NumberType` 特性的类型作为数字类型。

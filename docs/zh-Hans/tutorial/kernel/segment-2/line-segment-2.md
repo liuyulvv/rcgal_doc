@@ -1,12 +1,8 @@
----
-sidebar_position: 2
----
-
 # LineSegment2
 
 `LineSegment2` 是笛卡尔坐标系中的二维线段。
 
-![LineSegment2](/img/line-segment-2.png)
+![LineSegment2](/assets/img/line-segment-2.png)
 
 ## 构造函数
 

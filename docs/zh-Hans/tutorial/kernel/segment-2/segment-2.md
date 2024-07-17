@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Segment2
 
 `Segment2` 是一个在笛卡尔坐标系中表示二维线段的 `trait`。

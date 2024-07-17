@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Number type
 
 `number type` 是内核的一个基本概念，用于表示`数字`。`number type`是一个泛型类型，这意味着您可以使用任何实现 `NumberType` 特性的类型作为数字类型。

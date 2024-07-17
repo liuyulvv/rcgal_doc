@@ -1,12 +1,8 @@
----
-sidebar_position: 3
----
-
 # CircleSegment2
 
 `CircleSegment2` 是笛卡尔坐标系中的二维圆。
 
-![CircleSegment2](/img/circle-segment-2.png)
+![CircleSegment2](/assets/img/circle-segment-2.png)
 
 ## 构造函数
 

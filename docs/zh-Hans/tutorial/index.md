@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # 介绍
 
 RCGAL 是一个 Rust 的计算几何算法库，它不是[CGAL](https://www.cgal.org/)的 Rust 绑定，而是受 CGAL 启发的新库。

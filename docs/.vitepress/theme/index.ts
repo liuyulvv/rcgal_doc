@@ -2,7 +2,7 @@ import { Button, ConfigProvider, Radio } from "ant-design-vue";
 import { createPinia } from "pinia";
 import DefaultTheme from "vitepress/theme";
 import VueKonva from "vue-konva";
-import WasmExample from "../components/WasmExample.vue";
+import WasmExample from "../../../src/components/WasmExample.vue";
 
 const pinia = createPinia();
 

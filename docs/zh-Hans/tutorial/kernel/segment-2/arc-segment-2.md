@@ -1,12 +1,8 @@
----
-sidebar_position: 4
----
-
 # ArcSegment2
 
 `AecSegment2` 是笛卡尔坐标系中的二维圆弧。它表示圆的一部分。
 
-![ArcSegment2](/img/arc-segment-2.png)
+![ArcSegment2](/assets/img/arc-segment-2.png)
 
 ## 构造函数
 
