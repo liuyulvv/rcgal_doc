@@ -1,15 +1,19 @@
 <template>
     <div ref="container">
         <div ref="header" class="wasm-header">
-            <a-radio-group v-model:value="drawType">
-                <a-radio-button value="line">Line Segment</a-radio-button>
-                <a-radio-button value="circle">Circle Segment</a-radio-button>
-                <a-radio-button disabled value="arc">Arc Segment</a-radio-button>
-            </a-radio-group>
-            <a-radio-group>
-                <a-radio-button value="large" @click="handleStop">Stop</a-radio-button>
-                <a-radio-button value="small" @click="handleClear">Clear</a-radio-button>
-            </a-radio-group>
+            <a-config-provider :theme="{
+                token: {
+                    colorPrimary: '#5b5fc7',
+                },
+            }">
+                <a-radio-group v-model:value="drawType" button-style="solid">
+                    <a-radio-button value="line" F>Line Segment</a-radio-button>
+                    <a-radio-button value="circle">Circle Segment</a-radio-button>
+                </a-radio-group>
+                <a-button type="primary" @click="handleStop">Stop</a-button>
+                <a-button type="primary" @click="handleClear">Clear</a-button>
+            </a-config-provider>
+
         </div>
         <v-stage :config="configKonva" @pointermove="handlePointerMove" @pointerdown="handlePointerDown">
             <v-layer>

@@ -1,4 +1,3 @@
-import { vitePluginForArco } from "@arco-plugins/vite-vue";
 import wasm from "vite-plugin-wasm";
 import { defineConfig } from "vitepress";
 
@@ -78,12 +77,7 @@ export default defineConfig({
 
     lastUpdated: true,
     vite: {
-        plugins: [
-            wasm(),
-            vitePluginForArco({
-                style: "css",
-            }),
-        ],
+        plugins: [wasm()],
         build: {
             target: "esnext",
         },
