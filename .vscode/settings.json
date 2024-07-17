@@ -1,12 +1,10 @@
 {
     "cSpell.words": [
-        "CGAL",
-        "clsx",
-        "consts",
-        "fluentui",
         "konva",
-        "rcgal",
-        "typecheck",
-        "zustand"
+        "pinia",
+        "RCGAL",
+        "unplugin",
+        "vitepress",
+        "vuetify"
     ]
 }
